@@ -64,16 +64,16 @@ export function getBill(req, res) {
 
   let mailBody = {
     body: {
-      name: "temp",
-      intro: "temp message",
+      name: "Parmar Risheet",
+      intro: "bill arrived",
       table: {
         data: {
-          item: "temp",
-          description: "temp des",
-          price: "$1B",
+          item: "Nodemailer",
+          description: "A backend stack application",
+          price: "$10.99",
         },
       },
-      outro: "Looking forward to create some badAss applications..POV: its just the start",
+      outro: "Looking forward to do more business",
     },
   };
 
